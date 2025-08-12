@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Data Cleaning Project</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', sans-serif;
+            margin: 40px auto;
+            max-width: 900px;
+            line-height: 1.6;
+            padding: 0 20px;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+        h1, h2 {
+            color: #004d99;
+        }
+        code {
+            background: #eee;
+            padding: 2px 5px;
+            border-radius: 4px;
+            font-size: 0.95em;
+        }
+        .section {
+            margin-bottom: 40px;
+        }
+        ul {
+            margin-top: 0;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>🧼 Data Cleaning Project</h1>
+    <p>This project demonstrates a full workflow for cleaning and preparing messy tabular data using Python and pandas. It is designed for portfolio purposes and simulates a real-world freelance-style data cleaning request.</p>
+
+    <div class="section">
+        <h2>📁 Project Structure</h2>
+        <ul>
+            <li><code>sample_data/messy_data.csv</code> — raw, messy input data</li>
+            <li><code>outputs/cleaned_data.csv</code> — cleaned and formatted output</li>
+            <li><code>scripts/clean_data.py</code> — main Python script for cleaning</li>
+            <li><code>notebooks/eda_analysis.ipynb</code> — optional exploratory data analysis (EDA)</li>
+            <li><code>index.html</code> — this project summary page</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2>🧼 Data Cleaning (clean_data.py)</h2>
+        <ul>
+            <li>Strips whitespace and fixes column names</li>
+            <li>Removes duplicate rows</li>
+            <li>Removes rows with missing or empty <code>Name</code></li>
+            <li>Cleans and validates <code>Email</code> addresses (regex-based)</li>
+            <li>Converts <code>Age</code> to integer and fills missing values with the median</li>
+            <li>Standardizes <code>Country</code> names (case-insensitive mapping, e.g., <code>usa → United States</code>)</li>
+            <li>Parses <code>SignUpDate</code> as datetime format</li>
+            <li>Cleans <code>Income</code> (removes non-numeric characters, converts to integer, removes invalid rows)</li>
+            <li>Normalizes <code>Status</code> (trimming, capitalization, fallback to "Unknown")</li>
+        </ul>
+        <p>📄 Final output is saved to <code>/outputs/cleaned_data.csv</code> with all missing values saved as blank cells.</p>
+        <p>📊 Logs include information about dropped rows, conversions, and data quality fixes.</p>
+    </div>
+
+    <div class="section">
+        <h2>📊 Optional EDA (Jupyter Notebook)</h2>
+        <ul>
+            <li>Loaded the cleaned data and displayed the first few rows</li>
+            <li>Used <code>df.info()</code> and <code>describe()</code> to understand structure and stats</li>
+            <li>Visualized missing data using <code>missingno</code></li>
+            <li>Plotted distributions of categorical and numerical variables using <code>seaborn</code></li>
+            <li>Created boxplots to compare income across countries</li>
+        </ul>
+        <p>The notebook helps demonstrate a basic understanding of the dataset and potential areas for deeper analysis or modeling.</p>
+    </div>
+
+    <div class="section">
+        <h2>✅ Tools Used</h2>
+        <ul>
+            <li>Python 3 (with pandas, numpy, seaborn, matplotlib, missingno)</li>
+            <li>Jupyter Notebook (for EDA)</li>
+            <li>Visual Studio Code (for development)</li>
+            <li>GitHub (for version control and portfolio sharing)</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2>🎯 Purpose</h2>
+        <p>This repository showcases my ability to handle raw data, clean and standardize it efficiently, and generate insights. It serves as a practical example of what I can deliver in freelance or data-related roles.</p>
+    </div>
+
+</body>
+</html>

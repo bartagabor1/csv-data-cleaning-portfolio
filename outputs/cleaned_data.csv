@@ -1,0 +1,30 @@
+Name,Email,Age,Country,SignUpDate,Income,Status
+John Doe,john.doe@example.com,29,United States,2023-01-15,5000,Active
+Jane Smith,,30,United States,,4000,Active
+Emily White,emily.white@example.com,22,United Kingdom,,3500,Active
+Lucas Grey,,34,Mexico,2021-11-22,5,Unknown
+Anna Black,,28,Germany,2022-05-05,3200,Inactive
+Nina Brown,nina.brown@example.com,30,United States,2021-02-15,5000,Active
+Olivia Blue,olivia.blue@example.org,27,United Kingdom,2020-01-01,4200,Active
+Liam Grey,liam.grey@example.com,36,United Kingdom,,3000,Active
+Jane Smith,,30,United States,,4000,Active
+Nina Brown,nina.brown@example.com,31,United States,,6000,Unknown
+Chris Green,,30,United Kingdom,,3000,Active
+Emily White,emily.white@example.com,24,United Kingdom,2020-03-15,4500,Inactive
+Mark Spencer,mark.spencer@example.com,30,United States,,4501,Unknown
+Liam Grey,liam.grey@example.com,41,United States,,6200,Active
+Lucas Grey,,38,Canada,2021-04-04,5500,Inactive
+Nina Brown,nina.brown@example.com,27,United Kingdom,2023-07-07,6,Active
+Olivia Blue,olivia.blue@example.org,26,France,2020-10-10,3300,Active
+Jane Smith,,30,United States,2020-08-08,3800,Unknown
+Anna Black,,31,Germany,2022-05-05,3200,Inactive
+Lucas Grey,,30,United Kingdom,2021-09-01,5,Unknown
+Emily White,emily.white@example.com,30,United Kingdom,2022-01-01,4000,Inactive
+Olivia Blue,olivia.blue@example.org,29,United States,2021-07-17,3900,Active
+Liam Grey,liam.grey@example.com,33,United Kingdom,,4200,Active
+Anna Black,anna.black@domain.com,28,Germany,2022-05-05,3200,Inactive
+Nina Brown,nina.brown@example.com,26,United States,2021-02-15,5000,Active
+Jane Smith,,30,United Kingdom,2023-04-22,3300,Unknown
+Lucas Grey,,34,Mexico,2021-11-22,5,Unknown
+Jane Smith,,30,United States,,4000,Active
+Lucas Grey,,34,Mexico,2021-11-22,5200,Unknown

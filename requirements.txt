@@ -1,0 +1,9 @@
+pandas
+numpy
+matplotlib
+seaborn
+missingno
+pandas-profiling
+ydata-profiling
+pdfkit
+pytest
