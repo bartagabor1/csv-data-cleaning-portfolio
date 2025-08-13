@@ -5,7 +5,7 @@ Jane Smith,jane.smith@invalid,NaN,United States,03-20-2021,4000,Active
 Mark Spencer,mark.spencer@example.com,45,Canada,2021/12/01,"-$1000",Active
 Emily White,   EMILY.WHITE@EXAMPLE.COM  ,22,UK,2022.07.10,3500, active
 John Doe,john.doe@example.com,29,USA,2023-01-15,"$5,000",active
-Lucas Grey,lucas.grey@example,34,Mexico,2021-11-22,"5.200",Unknown
+Lucas Grey,lucas.grey@example,34,Mexico,2021-11-22,"5200",Unknown
 Anna Black,,28,Germany,2022-05-05,3200.00,inactive
 Nina Brown,nina.brown@example.com,,usa,2021-02-15,"5000usd",ACTIVE
 Chris Green,chris.green@fake.,42,UK,14-02-2022,"-2000",unknown
@@ -23,14 +23,14 @@ Emily White,emily.white@example.com,24,United Kingdom,2020-03-15,"4,500USD",Inac
 Mark Spencer,mark.spencer@example.com,,United States,01/01/2020,4500.75,unknown
 Liam Grey,liam.grey@example.com,41,USA,12.05.2021,"$6200",Active
 Lucas Grey,,38,Canada,2021-04-04,"$5,500",Inactive
-Nina Brown,nina.brown@example.com,27,UK,2023-07-07,"6.100",ACTIVE
+Nina Brown,nina.brown@example.com,27,UK,2023-07-07,"6,100",ACTIVE
 Olivia Blue,olivia.blue@example.org,26,France,2020-10-10,"$3,300",Active
 Chris Green,chris.green@fake.,,UK,31/12/2020,"-1500",Inactive
 Mark Spencer,mark.spencer@example.com,45,Canada,2021/12/01,"-$1000",Active
 John Doe,john.doe@example.com,29,USA,2023-01-15,"$5,000",active
 Jane Smith,jane.smith@invalid,30,USA,2020-08-08,"3,800USD",unknown
 Anna Black,,31,Germany,2022-05-05,3200.00,inactive
-Lucas Grey,lucas.grey@example,NaN,UK,2021-09-01,"5.200",unknown
+Lucas Grey,lucas.grey@example,NaN,UK,2021-09-01,"5200",unknown
 Emily White,emily.white@example.com,NaN,UK,2022-01-01,"$4,000",Inactive
 Nina Brown,nina.brown@example.com,28,USA,2023-03-03,"-200",Active
 Olivia Blue,olivia.blue@example.org,29,United States,2021-07-17,"$3,900",active
@@ -41,7 +41,7 @@ Anna Black,anna.black@domain.com,28,Germany,2022-05-05,3200.00,inactive
 Nina Brown,nina.brown@example.com,26,usa,2021-02-15,"5000usd",ACTIVE
 John Doe,john.doe@example.com,29,USA,2023-01-15,"$5,000",active
 Jane Smith,jane.smith@invalid,NaN,UK,2023-04-22,"$3,300",Unknown
-Lucas Grey,lucas.grey@example,34,Mexico,2021-11-22,"5.200",unknown
+Lucas Grey,lucas.grey@example,34,Mexico,2021-11-22,"5200",unknown
 Emily White,   EMILY.WHITE@EXAMPLE.COM  ,22,UK,2022.07.10,3500, active
 Chris Green,chris.green@fake.,,UK,14-02-2022,"-2000",unknown
 Olivia Blue,olivia.blue@example.org,27,United Kingdom,2020-01-01,4200.5,ACTIVE
